@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DDCA7060ACC9A6100E082CE /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		4DDCA7070ACC9A6100E082CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		4DDCA7080ACC9A6100E082CE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = E8F5E25803AEB7C803A81C6F /* rb_main.rb */; };
 		4DDCA70A0ACC9A6100E082CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		4DDCA70C0ACC9A6100E082CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		4DDCA70D0ACC9A6100E082CE /* RubyCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F5E24E03AEB6EC03A81C6F /* RubyCocoa.framework */; };
+		56B8D50E0F780D2600CA33DD /* AppController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 56B8D50D0F780D2600CA33DD /* AppController.rb */; };
+		56B8D5750F78133F00CA33DD /* amber.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B8D5710F78133D00CA33DD /* amber.png */; };
+		56B8D5760F78133F00CA33DD /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B8D5720F78133D00CA33DD /* green.png */; };
+		56B8D5770F78133F00CA33DD /* grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B8D5730F78133E00CA33DD /* grey.png */; };
+		56B8D5780F78133F00CA33DD /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B8D5740F78133F00CA33DD /* red.png */; };
+		56B8D5A50F78204E00CA33DD /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 56B8D5A30F78204E00CA33DD /* MainMenu.nib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		4DDCA7110ACC9A6100E082CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DDCA7120ACC9A6100E082CE /* CurrentCostStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrentCostStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B8D50D0F780D2600CA33DD /* AppController.rb */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text.script.ruby; path = AppController.rb; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
+		56B8D5710F78133D00CA33DD /* amber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amber.png; sourceTree = "<group>"; };
+		56B8D5720F78133D00CA33DD /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		56B8D5730F78133E00CA33DD /* grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey.png; sourceTree = "<group>"; };
+		56B8D5740F78133F00CA33DD /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		56B8D5A40F78204E00CA33DD /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		E8F5E24E03AEB6EC03A81C6F /* RubyCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RubyCocoa.framework; path = /Library/Frameworks/RubyCocoa.framework; sourceTree = "<absolute>"; };
 		E8F5E25803AEB7C803A81C6F /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +54,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				56B8D50D0F780D2600CA33DD /* AppController.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -77,6 +88,10 @@
 		29B97314FDCFA39411CA2CEA /* CurrentCostStatus */ = {
 			isa = PBXGroup;
 			children = (
+				56B8D5710F78133D00CA33DD /* amber.png */,
+				56B8D5720F78133D00CA33DD /* green.png */,
+				56B8D5730F78133E00CA33DD /* grey.png */,
+				56B8D5740F78133F00CA33DD /* red.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -99,7 +114,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				56B8D5A30F78204E00CA33DD /* MainMenu.nib */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 			);
 			name = Resources;
@@ -168,9 +183,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DDCA7060ACC9A6100E082CE /* MainMenu.nib in Resources */,
 				4DDCA7070ACC9A6100E082CE /* InfoPlist.strings in Resources */,
 				4DDCA7080ACC9A6100E082CE /* rb_main.rb in Resources */,
+				56B8D50E0F780D2600CA33DD /* AppController.rb in Resources */,
+				56B8D5750F78133F00CA33DD /* amber.png in Resources */,
+				56B8D5760F78133F00CA33DD /* green.png in Resources */,
+				56B8D5770F78133F00CA33DD /* grey.png in Resources */,
+				56B8D5780F78133F00CA33DD /* red.png in Resources */,
+				56B8D5A50F78204E00CA33DD /* MainMenu.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,10 +216,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+		56B8D5A30F78204E00CA33DD /* MainMenu.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				29B97319FDCFA39411CA2CEA /* English */,
+				56B8D5A40F78204E00CA33DD /* English */,
 			);
 			name = MainMenu.nib;
 			sourceTree = "<group>";
